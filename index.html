@@ -9,29 +9,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <link rel="icon" type="image/png" href="favicon.png">
   
-   
     <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      body {
+        background-color: white;
+        color: #333; /* Dark gray for general text */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #f8f9fa; /* Light gray background */
+        color: #007bff; /* Bootstrap blue color for header text */
+        padding: 20px;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2em;
+      }
+      ul.main-menu {
+        list-style-type: none;
+        padding: 0;
+      }
+      ul.main-menu li {
+        display: inline;
+        margin-right: 15px;
+      }
+      ul.main-menu li a {
+        color: #007bff; /* Blue color for links */
+        text-decoration: none;
+      }
+      ul.main-menu li a:hover {
+        text-decoration: underline;
+      }
+      #container {
+        padding: 20px;
+      }
+      .content-region {
+        margin-bottom: 20px;
+      }
+      .content-region h2 {
+        color: #007bff; /* Blue for section headers */
+      }
+      .content-region p {
+        color: #333; /* General text color */
+        line-height: 1.6;
+      }
+      footer {
+        background-color: #f8f9fa;
+        color: #6c757d; /* Gray for footer text */
+        text-align: center;
+        padding: 10px;
+        font-size: 0.9em;
+      }
+      .hide {
+        display: none;
+      }
+    </style>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
 
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
   </head>
   
   <body>
 
     <header id="header">
-      <img src="logo.jpg">
+      <img src="logo.jpg" alt="Logo" style="width: 100px; height: auto;">
       <h1>Simple Website</h1>
       
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>                 
     </header>
    
