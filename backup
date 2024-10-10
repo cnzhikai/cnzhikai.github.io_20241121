@@ -1,3 +1,20 @@
+#20241010
+Zhikai Huang (黄志凯)
+Towards Scalable and Multimodal Three-Dimensional CMOS-Bioelectronic Interface with Embedded Machine Learning
+About Publications Teaching
+About
+Two clear trends have emerged in the evolution of in-vitro biomedical platforms. First, biological models under test are shifting from traditional two-dimensional models (e.g., planar cell cultures) to more complex three-dimensional models (e.g., organoids), which more accurately mimicks in-vivo responses. Second, large-scale, high-resolution multi-modality physiological monitoring and manipulation are increasingly required to deepen biological understanding and support the use of advanced analytic tools such as machine learning with large data sets.
+
+In my Ph.D. research, I propose a CMOS-based biomedical platform to address these two trends through three key innovations:
+
+Shape-Reconfigurable 3D Structures for Organoid Interfacing : I am developing high-fidelity, shape-reconfigurable 3D structures that intimately interface with three-dimensional organoids. These structures are highly compatible with CMOS technology and are designed for general-purpose use, extending traditional 2D CMOS platforms to accommodate complex 3D biological samples with different phenotypes.
+CMOS-Based Sensing and Actuation Array for High-Throughput, Multi-Modal 3D Biological Interfaces : I am building a CMOS-based system that enables large-scale, multi-modal physiological monitoring and manipulation of 3D biological systems. This scalable platform facilitates the generation of large, multimodal datasets, promoting a deeper understanding of complex biological processes.
+Embedded Machine Learning for Real-Time Biological Understanding : My research embeds machine learning algorithms within a real-time sensing-analysis-actuation feedback loop, enabled by the CMOS sensing and actuation array. This integration allows for adaptive, real-time insights into biological systems, which sets my work apart from more traditional applications of machine learning in biomedical research without real-time feedback modulation.
+By tackling these three challenges, my work advances the development of innovative in-vitro biomedical platforms that are capable of more sophisticated biological interfacing and analysis.
+
+Short bio
+I am a Ph.D. student at the integrated devices, electronics, and system (IDEAS) group at the department of information technology and electrical engineering (D-ITET), ETH Zurich. Before, I obtained my master degree in biomedical engineering from ETH Zurich, during which I gained experiences in mixed-mode analog circuit design, and developing machine learning algorithms for event-based cameras. Before that, I obtained my B.Eng in microelectronics from Xi'an Jiaotong University and was a visiting research intern at department of physics, McGill university. Contact me at zhhuang @ ethz.ch for any inquires.
+
 #20241008
  The recent success of artificial intelligence underscores the importance of big data, a trend also evident in biomedical research. Three-dimensional biological models, such as organoids, hold great promise for various applications, including high-throughput drug screening. However, current technologies struggle to interface with these models efficiently, limiting our ability to fully understand their potential. To address this, I propose a CMOS-integrated three-dimensional microsystem that combines the information-processing power of electronic chips with shape-programmable 3D microrobotic structures for intimate biological interfacing. This technology could significantly advance next-generation biomedical research and applications.
 
